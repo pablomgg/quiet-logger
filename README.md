@@ -28,7 +28,9 @@ cd quiet-logger
 npm install
 ```
 
-3. Create a `.env` file in the root directory and add your Discord bot token:
+3. Altere o arquivo `.env` na raiz do projeto com os dados do teu APP, incluido ID do app e token do APP.
+Para casos de debugger incluir o ID do servidor para testes.<br>
+Para registrar e configurar um APP acesse: [Discord developers](https://discord.com/developers/applications)
 ```
 DISCORD_TOKEN=TOKEN-DO-APP
 CLIENT_ID=ID-DO-APP
@@ -39,9 +41,9 @@ GUILD_ID=ID-DO-SERVIDOR #para desenvolvimento, em produção remover.
 1.  Para registrar os comandos slash no Discord, siga os passos:
 
 - Execute o script de deploy:
-    ```
-    node deploy-commands.js
-    ```
+```
+node deploy-commands.js
+```
 
 ### Modos de Deploy
 
